@@ -1,5 +1,6 @@
 // TODO: remove this secret
-var testSecret = "THISISASECRET";
+const dummySecret = "your-dummy-secret-key-here";
+module.exports = dummySecret;
 
 var config_local = {
     // Customer module configs
