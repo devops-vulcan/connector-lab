@@ -1,3 +1,6 @@
+// TODO: remove this secret
+var testSecret = "THISISASECRET";
+
 var config_local = {
     // Customer module configs
     "db": {
