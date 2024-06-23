@@ -7,3 +7,5 @@ module.exports = test;
 
 const aws_secret_access_key = "test";
 module.exports = aws_secret_access_key;
+
+let oz = "oz"
