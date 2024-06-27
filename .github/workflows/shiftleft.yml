@@ -1,7 +1,7 @@
 ---
 # This workflow integrates qwiet.ai preZero with GitHub
 # Visit https://docs.shiftleft.io for help
-name: qwiet.ai oz workflow
+name: qwiet.ai 2
 
 on:
   pull_request:
@@ -38,7 +38,6 @@ jobs:
         SHIFTLEFT_GRPC_TELEMETRY_HOST: telemetry.shiftleft.io:443
         SHIFTLEFT_GRPC_API_HOST: api.shiftleft.io:443
 
-
 #   Build-Rules:
 #     runs-on: ubuntu-latest
 #     permissions: write-all
@@ -62,5 +61,4 @@ jobs:
 #         SHIFTLEFT_GRPC_TELEMETRY_HOST: telemetry.shiftleft.io:443
 #         SHIFTLEFT_GRPC_API_HOST: api.shiftleft.io:443
 #
-
 
