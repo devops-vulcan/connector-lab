@@ -29,7 +29,6 @@ jobs:
         ${GITHUB_WORKSPACE}/sl --version
         ${GITHUB_WORKSPACE}/sl analyze --strict --wait \
           --app connector-lab \
-          --tag branch=${{ github.head_ref }} \
           --js --container 18fgsa/s3-resource .
       env:
         SHIFTLEFT_ACCESS_TOKEN: ${{ secrets.SHIFTLEFT_ACCESS_TOKEN }}
